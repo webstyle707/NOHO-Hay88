@@ -24,8 +24,9 @@
 
 <body>
     <div class="w-full m-0 p-0 relative">
-        <div class="fixed w-auto z-10 h-auto">
-            <div id="menu" class="h-screen inset-0 bg-opacity-50 fixed z-10 flex items-center"
+        <!-- header -->
+        <div class="fixed w-auto z-20 h-auto">
+            <div id="menu" class="h-screen inset-0 bg-opacity-50 fixed z-10 flex nitems-ceter"
                 style=" left: -100%; width: 0;">
                 <div
                     class="h-screen w-9/12 md:w-4/12 shadow inset-0 bg-white bg-opacity-95 z-10 pt-10 md:pt-16 space-y-6">
@@ -44,58 +45,45 @@
 
                     <div class="w-full">
                         <ul class="md:space-y-4 space-y-2">
-                            <li
-                                class="flex items-center space-x-2 lg:text-sm xl:text-md w-full border-b pl-4 pb-2 md:pb-4">
-                                <img class="w-5" src="./assets/Menu/home.jpg" />
+                            <li class="flex items-center text-[14.8px] w-full border-b pl-4 pb-2 md:pb-4">
+
                                 <a href="#">Trang chủ</a>
                             </li>
-                            <li
-                                class="flex items-center space-x-2 lg:text-sm xl:text-md w-full border-b pl-4 pb-2 md:pb-4">
-                                <img class="w-5" src="./assets/Menu/8pool.jpg" />
+                            <li class="flex items-center text-[14.8px] w-full border-b pl-4 pb-2 md:pb-4">
+
                                 <a href="#"> Xổ số </a>
                             </li>
-                            <li
-                                class="flex items-center space-x-2 lg:text-sm xl:text-md w-full border-b pl-4 pb-2 md:pb-4">
-                                <img class="w-5" src="./assets/Menu/video.jpg" />
+                            <li class="flex items-center text-[14.8px] w-full border-b pl-4 pb-2 md:pb-4">
+
                                 <a href="#"> casino </a>
                             </li>
-                            <li
-                                class="flex items-center space-x-2 lg:text-sm xl:text-md w-full border-b pl-4 pb-2 md:pb-4">
-                                <img class="w-5" src="./assets/Menu/star.jpg" />
+                            <li class="flex items-center text-[14.8px] w-full border-b pl-4 pb-2 md:pb-4">
+
                                 <a href="#"> Thể thao </a>
                             </li>
-                            <li
-                                class="flex items-center space-x-2 lg:text-sm xl:text-md w-full border-b pl-4 pb-2 md:pb-4">
-                                <img class="w-5" src="./assets/Menu/morn.jpg" />
+                            <li class="flex items-center text-[14.8px] w-full border-b pl-4 pb-2 md:pb-4">
+
                                 <a href="#">Đá gà </a>
                             </li>
-                            <li
-                                class="flex items-center space-x-2 lg:text-sm xl:text-md w-full border-b pl-4 pb-2 md:pb-4">
-                                <img class="w-5" src="./assets/Menu/Capture-10.jpg" />
+                            <li class="flex items-center text-[14.8px] w-full border-b pl-4 pb-2 md:pb-4">
+
                                 <a href="#"> Nổ hũ </a>
                             </li>
-                            <li
-                                class="flex items-center space-x-2 lg:text-sm xl:text-md w-full border-b pl-4 pb-2 md:pb-4">
-                                <img class="w-5" src="./assets/Menu/trey.jpg" />
+                            <li class="flex items-center text-[14.8px] w-full border-b pl-4 pb-2 md:pb-4">
+
                                 <a href="#"> Bắn cá</a>
                             </li>
-                            <li
-                                class="flex items-center space-x-2 lg:text-sm xl:text-md w-full border-b pl-4 pb-2 md:pb-4">
-                                <img class="w-5" src="./assets/Menu/beer.jpg" />
+                            <li class="flex items-center text-[14.8px] w-full border-b pl-4 pb-2 md:pb-4">
                                 <a href="#"> Game bài </a>
                             </li>
-                            <li
-                                class="flex items-center space-x-2 lg:text-sm xl:text-md w-full border-b pl-4 pb-2 md:pb-4">
-                                <img class="w-5" src="./assets/Menu/Capture-13.jpg" />
+                            <li class="flex items-center text-[14.8px] w-full border-b pl-4 pb-2 md:pb-4">
                                 <a href="#">Ưu đãi </a>
                             </li>
-                            <li
-                                class="flex items-center space-x-2 lg:text-sm xl:text-md w-full border-b pl-4 pb-2 md:pb-4">
-                                <img class="w-5" src="./assets/Menu/Capture-17.jpg" />
+                            <li class="flex items-center text-[14.8px] w-full border-b pl-4 pb-2 md:pb-4">
+
                                 <a href="#"> Đại lý </a>
                             </li>
-                            <li
-                                class="flex items-center space-x-1 lg:text-sm xl:text-md w-full border-b pl-4 pb-2 md:pb-4">
+                            <li class="flex items-center space-x-1 text-[14.8px] w-full border-b pl-4 pb-2 md:pb-4">
                                 <a href="#"> Tin tức </a>
                             </li>
                         </ul>
@@ -119,9 +107,7 @@
             </div>
         </div>
 
-
-        <!-- header -->
-        <div class="bg-blue-950 w-full z-50 fixed">
+        <div class="bg-blue-950 w-full fixed z-10 ">
             <div class="flex flex-col items-center justify-center 2xl:w-7/12 xl:w-10/12 lg:w-11/12  mx-auto text-white">
                 <div class="w-full lg:justify-between lg:flex lg:items-center">
                     <div onclick="HandleShowMenu()"
@@ -141,12 +127,14 @@
                         class="flex space-x-8 lg:space-x-5 py-2 items-center justify-center lg:justify-normal bg-[#5121ba] lg:bg-blue-950 w-full lg:w-auto">
                         <li class="bg-orange-100 rounded-full font-semibold py-1 md:py-2 px-5"
                             style="background-color: #eace9a">
-                            <a href="#" class="text-[13.1px] font-[roboto] uppercase text-gray-900 font-semibold">Đăng
+                            <a href="#"
+                                class="text-[13.8px] xl:text-[14.8px]  uppercase text-gray-700 font-semibold">Đăng
                                 Nhập</a>
                         </li>
                         <li class="bg-orange-100 rounded-full font-semibold py-1 md:py-2 px-5"
                             style="background-color: #eace9a">
-                            <a href="#" class="text-[13.1px] font-[roboto] uppercase text-gray-900 font-semibold">Đăng
+                            <a href="#"
+                                class="text-[13.8px] xl:text-[14.8px]  uppercase text-gray-700 font-semibold">Đăng
                                 Ký +</a>
                         </li>
                     </ul>
@@ -157,64 +145,51 @@
                 <div
                     class="hidden lg:flex lg:flex-col items-center justify-center space-y-4 2xl:w-7/12 xl:w-10/12 lg:w-11/12 lg:w-12/12 mx-auto font-semibold text-white">
                     <ul class="w-full uppercase flex justify-between items-center mx-auto">
-                        <li class="flex items-center space-x-1 text-[12.8px]">
+                        <li class="flex items-center text-[13.8px] xl:text-[14.8px]">
 
-                            <a href="#" class="flex items-center space-x-1 justify-center"><img class="w-5"
-                                    src="./assets/Menu/home.jpg" /> <span>Trang chủ</span></a>
+                            <a href="#" class="flex items-center justify-center"> <span>Trang chủ</span></a>
                         </li>
 
-                        <li class="flex items-center space-x-1 text-[12.8px]">
-                            <a href="#" class="flex items-center space-x-1 justify-center"><img class="w-5"
-                                    src="./assets/Menu/8pool.jpg" /> <span>Xổ số</span> </a>
+                        <li class="flex items-center text-[13.8px] xl:text-[14.8px]">
+                            <a href="#" class="flex items-center justify-center"> <span>Xổ số</span> </a>
                         </li>
 
-                        <li class="flex items-center space-x-1 text-[12.8px]">
-                            <a href="#" class="flex items-center space-x-1 justify-center"><img class="w-5"
-                                    src="./assets/Menu/video.jpg" /> <span>casino </span></a>
+                        <li class="flex items-center text-[13.8px] xl:text-[14.8px]">
+                            <a href="#" class="flex items-center justify-center"><span>casino </span></a>
                         </li>
 
-                        <li class="flex items-center space-x-1 text-[12.8px]">
-                            <a href="#" class="flex items-center space-x-1 justify-center"><img class="w-5"
-                                    src="./assets/Menu/star.jpg" /> <span>Thể thao</span> </a>
+                        <li class="flex items-center text-[13.8px] xl:text-[14.8px]">
+                            <a href="#" class="flex items-center justify-center"><span>Thể thao</span> </a>
                         </li>
 
-                        <li class="flex items-center space-x-1 text-[12.8px]">
-                            <a href="#" class="flex items-center space-x-1 justify-center"><img class="w-5"
-                                    src="./assets/Menu/morn.jpg" /><span>Đá gà</span> </a>
+                        <li class="flex items-center text-[13.8px] xl:text-[14.8px]">
+                            <a href="#" class="flex items-center justify-center"><span>Đá gà</span> </a>
                         </li>
 
-                        <li class="flex items-center space-x-1 text-[12.8px]">
-                            <a href="#" class="flex items-center space-x-1 justify-center"><img class="w-5"
-                                    src="./assets/Menu/Capture-10.jpg" /> <span>Nổ hũ</span> </a>
+                        <li class="flex items-center text-[13.8px] xl:text-[14.8px]">
+                            <a href="#" class="flex items-center justify-center"> <span>Nổ hũ</span> </a>
                         </li>
 
-                        <li class="flex items-center space-x-1 text-[12.8px]">
-                            <a href="#" class="flex items-center space-x-1 justify-center"><img class="w-5"
-                                    src="./assets/Menu/trey.jpg" /> <span>Bắn cá</span></a>
+                        <li class="flex items-center text-[13.8px] xl:text-[14.8px]">
+                            <a href="#" class="flex items-center justify-center"><span>Bắn cá</span></a>
                         </li>
 
-                        <li class="flex items-center space-x-1 text-[12.8px]">
-                            <a href="#" class="flex items-center space-x-1 justify-center"><img class="w-5"
-                                    src="./assets/Menu/beer.jpg" /> <span>Game bài</span> </a>
+                        <li class="flex items-center text-[13.8px] xl:text-[14.8px]">
+                            <a href="#" class="flex items-center justify-center"><span>Game bài</span> </a>
                         </li>
 
-                        <li class="flex items-center space-x-1 text-[12.8px]">
-                            <a href="#" class="flex items-center space-x-1 justify-center"><img class="w-5 mb-1"
-                                    src="./assets/Menu/Capture-13.jpg" /><span>Ưu đãi</span> </a>
+                        <li class="flex items-center text-[13.8px] xl:text-[14.8px]">
+                            <a href="#" class="flex items-center justify-center"><span>Ưu đãi</span> </a>
                         </li>
 
-                        <li class="flex items-center space-x-1 text-[12.8px]">
-                            <a href="#" class="flex items-center space-x-1 justify-center"><img class="w-5"
-                                    src="./assets/Menu/Capture-17.jpg" /> <span>Đại lý</span> </a>
+                        <li class="flex items-center text-[13.8px] xl:text-[14.8px]">
+                            <a href="#" class="flex items-center justify-center"> <span>Đại lý</span> </a>
                         </li>
 
-                        <li class="xl:flex hidden items-center space-x-1 text-[12.8px]">
-                            <a href="#" class="flex items-center space-x-1 justify-center">Tin tức </a>
+                        <li class="flex  items-center text-[13.8px] xl:text-[14.8px]">
+                            <a href="#" class="flex items-center justify-center">Tin tức </a>
                         </li>
                     </ul>
-                    <li class="flex items-center space-x-1 font-semibold uppercase text-[12.8px] text-white xl:hidden">
-                        <a href="#" class="text-center"> Tin tức </a>
-                    </li>
                 </div>
             </div>
 
@@ -533,7 +508,8 @@
                             Kết luận
                         </h1>
                         <p class=" text-gray-500">
-                            <span class=" text-gray-600 font-semibold">Nổ hủ Hay88</span> luôn là lựa chọn tối ưu dành cho
+                            <span class=" text-gray-600 font-semibold">Nổ hủ Hay88</span> luôn là lựa chọn tối ưu dành
+                            cho
                             bạn. Với những kinh nghiệm cùng với ưu điểm nổi trội ở bài viết trên. Hy vọng bạn sẽ luôn
                             đồng hành cùng với Nổ hủ Hay88. Hãy tham gia ngay để trải nghiệm những con game siêu hấp dẫn
                             có ở đây.
@@ -570,7 +546,7 @@
                             3 ưu điểm vượt trội là: game đa dạng dễ chơi dễ trúng, trả thưởng nhanh xanh chín, khuyến
                             mãi khủng được tung ra hàng ngày.
                         </p>
-                        <div class="flex items-center space-x-2">
+                        <div class="flex items-center justify-center space-x-2">
                             <a href="https://www.hay8833.com/home/?inviteCode=3128320#/" target="_blank"
                                 class="hover:bg-indigo-600 transition-all duration-100 w-8 h-8 rounded-full flex justify-center items-center border-2 border-gray-200">
                                 <ion-icon name="logo-facebook" class=" w-5 h-5"></ion-icon> </a>
@@ -669,7 +645,7 @@
 
 
                     <div class="space-y-6">
-                        <h1 class=" font-bold text-xl">HƯỚNG DẪN HAY88</h1>
+                        <h1 class=" font-bold text-xl">SẢN PHẨM HAY88</h1>
                         <ul class="gap-3 grid grid-cols-1">
                             <li
                                 class=" flex items-center justify-start hover:scale-105  duration-500 transition-all border-b pb-2 border-gray-300 w-full space-x-1">
